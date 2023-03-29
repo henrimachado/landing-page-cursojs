@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 class = "logo" onclick="getElementById('close-menu').checked = false;"> <a href="#home">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">ABOUT</a></li>
+                    <li><a href="#top3-works">CASES</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#recent-work">NEW</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="home main-bg section-site">
+        <div class="main-content home-content">
+            <div class="home-text-content">
+                <h2>Prodigy Software Design</h2>
+                <p>Custom software design for your business. We create efficient and user-friendly software solutions
+                    using the latest technologies. Whether you need a custom software application, mobile app, or web
+                    development services, we deliver results.</p>
+            </div>
+
+            <div class="home-img"><img src="./assets/img/home-img.svg" alt="Logos de HMLT, CSS e JS"></div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section-site">
+        <div class="main-content intro-content">
+            <h2>About us</h2>
+            <p>We are a team of software design and development experts with a passion for delivering innovative
+                solutions that meet our client's unique needs.We work with startups to large enterprises to create
+                efficient, user-friendly, and visually appealing software. </p>
+
+            <p>Our team of experts leverages the latest technologies and industry best practices to ensure that our
+                software solutions are robust, scalable, and future-proof. Whether you need a custom software
+                application, mobile app development, or web development services, we have the expertise to deliver the
+                results you need.</p>
+
+            <p> We are committed to helping our clients achieve their business objectives by designing software
+                solutions that meet their needs. We pride ourselves on building strong relationships with our clients
+                and delivering successful projects. If you're looking for a reliable software design and development
+                partner, look no further.</p>
+        </div>
+    </section>
+
+
+    <section id="top3-works" class="main-bg section-site grid-one">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Top 3 Jobs</h2>
+            <p class="grid-description">Here are some of our best work.</p>
+
+
+            <div class="grid">
+                <article>
+                    <h3>ControlHub</h3>
+                    <p>A custom software solution that allows smart home device control through a single user interface,
+                        integrating with voice assistants and supporting all major smart home protocols.</p>
+                </article>
+                <article>
+                    <h3>PersonalizeMe</h3>
+                    <p>A personalized e-commerce platform that uses machine learning algorithms to analyze user behavior
+                        and recommend products tailored to their preferences, resulting in increased conversion rates
+                        and sales.</p>
+                </article>
+                <article>
+                    <h3>CloudInventory</h3>
+                    <p>A cloud-based inventory management system that provides real-time inventory tracking,
+                        forecasting, and reporting features, increasing efficiency and providing valuable insights into
+                        logistics operations.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="white-bg section-site grid-one">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Here are some of our best pics.</p>
+
+
+            <div class="gallery-table">
+                <table>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="gallery-img first-img">
+                                    <img src="https://source.unsplash.com/random/360x360?r=1"
+                                        alt="random image from unsplash">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="gallery-img">
+                                    <img src="https://source.unsplash.com/random/360x360?y=2"
+                                        alt="random image from unsplash">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="gallery-img">
+                                    <img src="https://source.unsplash.com/random/360x360?d=23"
+                                        alt="random image from unsplash">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="gallery-img">
+                                    <img src="https://source.unsplash.com/random/360x360?p=1"
+                                        alt="random image from unsplash">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="gallery-img">
+                                    <img src="https://source.unsplash.com/random/360x360?t=2"
+                                        alt="random image from unsplash">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="gallery-img">
+                                    <img src="https://source.unsplash.com/random/360x360?g=3"
+                                        alt="random image from unsplash">
+                                </div>
+                            </td>
+    
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="recent-work" class="main-bg section-site grid-one">
+
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Recent works</h2>
+            <p class="grid-description">Here are some our latest works.</p>
+
+
+            <div class="grid">
+
+                <article>
+                    <h3>Optimization</h3>
+                    <p> Our custom software solution optimized a retail company's inventory management process,
+                        streamlining their operations and increasing productivity by 30%. The user-friendly interface
+                        also reduced errors by 20%, resulting in a more efficient and effective process.</p>
+                </article>
+                <article>
+                    <h3>Engagement</h3>
+                    <p>Our team designed and developed a mobile app for a fitness startup that engaged users with a
+                        user-friendly interface and visually appealing design. The app's tracking and goal-setting
+                        features increased user engagement by 40% and retention rates by 25%, resulting in a more loyal
+                        user base.</p>
+                </article>
+                <article>
+                    <h3>Automation</h3>
+                    <p> Our custom software solution automated a medical billing company's process, reducing errors by
+                        50% and increasing overall efficiency by 30%. The solution streamlined the billing process and
+                        included built-in error detection and reporting features, resulting in a more effective and
+                        accurate process.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section-site">
+        <div class="main-content intro-content">
+            <h2>Pricing</h2>
+            <p>At our software design company, we offer flexible pricing options tailored to your unique needs and
+                budget. Our experienced team provides detailed estimates upfront with no hidden fees, whether you need
+                hourly rates or fixed project fees. Take a look at our pricing options below and contact us today to
+                learn more about how we can bring your ideas to life!</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Description</th>
+                            <th>Price per hour</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Web Design</td>
+                            <td>Custom website design and development</td>
+                            <td>$100/hour</td>
+
+                        </tr>
+                        <tr>
+                            <td>Mobile App </td>
+                            <td>Custom mobile app design and development</td>
+                            <td>$120/hour</td>
+
+                        </tr>
+                        <tr>
+                            <td>UX/UI Design</td>
+                            <td>User experience and interface design for software</td>
+                            <td>$90/hour</td>
+                        </tr>
+                        <tr>
+                            <td>Graphic Design</td>
+                            <td>Custom graphics design for logos, brochures, and more</td>
+                            <td>$80/hour</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact" class="main-bg section-site">
+        <div class="main-content intro-content">
+            <h2>Contact Us</h2>
+            <p>Have a question or interested in starting a project with us? Fill out the contact form below and we'll
+                get back to you shortly!</p>
+
+            <div class="contact-form">
+                <form action="#" method="get" target="_blank" autocomplete="off">
+                    <fieldset class="form-grid">
+                        <legend>Contact me</legend>
+
+                        <div class="form-group">
+                            <label for="first-name">First name</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="First name (A-Z)" required
+                                pattern="^[a-zA-Z][a-zA-Z-_\.]{3,20}$">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">Last name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Last name (A-Z)" required
+                                pattern="^[a-zA-Z][a-zA-Z-_\.]{3,20}$">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="text" name="email" id="email" placeholder="Email (e.g.: yourname@gmail.com)"
+                                required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="4" placeholder="Message"
+                                required></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <button type="submit">Send message</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="footer white-bg ">
+        <p>Adaptado por <a href="https://github.com/henrimachado">Henrique Machado</a></p>
+        <p>Projeto original por <a href="https://codepen.io/luizomf/full/KKNwMeG" rel="nofollow" target="_blank">Luiz
+                Otávio Miranda</a></p>
+        <p>Desenvolvido para o curso de <a
+                href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/" rel="nofollow"
+                target="_blank">JavaScript e TypeScript</a></p>
+    </footer>
+
+    <a class = "back-to-top" href="#home">&#10148;</a>
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+/*Criando variáveis para cores, por exemplo, facilitando seu uso*/
+
+:root {
+    --primary-color: #542789;
+    --dark-gray-color: #2F2F2F;
+    --white-color: #FFFFFF;
+    --light-grey-color: #EEEEEE;
+    --lighter-grey-color: #fcfcfc;
+    --opacity-grey-color: rgba(255, 255, 255, 0.7);
+    --main-gap: 3rem;
+    --intro-gap: 5rem;
+}
